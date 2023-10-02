@@ -1,5 +1,5 @@
 package vehiculos;
-import java.util.List;
+
 import java.util.ArrayList;
 
 public class Fabricante {
@@ -7,7 +7,7 @@ public class Fabricante {
 	String pais;
 	protected int vecesFabricante;
 	private static Fabricante fabricanteElegido;
-	protected  static List<Fabricante>elegidoFab=new ArrayList<>();
+	protected  static ArrayList<Fabricante>elegidoFab=new ArrayList<>();
 	
 	
 	public Fabricante(String name, String pais ) {
