@@ -59,10 +59,10 @@ public class Vehiculo {
 	public void setPrecio(int precio) {
 		this.precio = precio ;
 	}
-	public String getTracción() {
+	public String getTraccion() {
 		return traccion;
 	}
-	public void setTracción(String tracción) {
+	public void setTraccion(String traccion) {
 		this.traccion = traccion ;
 	}
 	public String getFabricante() {
