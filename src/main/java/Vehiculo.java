@@ -1,9 +1,5 @@
 package vehiculos;
 
-import vehiculos.Automovil;
-import vehiculos.Camion;
-import vehiculos.Camioneta;
-
 public class Vehiculo {
 	protected String placa;
 	protected int puertas;
@@ -11,18 +7,18 @@ public class Vehiculo {
 	protected String nombre;
 	protected int precio;
 	protected int peso;
-	protected String tracción;
+	protected String traccion;
 	protected String fabricante;
 	protected static int CantidadVehiculos;
 	
-	public Vehiculo(String placa, int puertas, int velocidadMaxima, String nombre, int precio, int peso, String tracción, String fabricante) {
+	public Vehiculo(String placa, int puertas, int velocidadMaxima, String nombre, int precio, int peso, String traccion, String fabricante) {
 		this.placa = placa;
 		this.puertas = puertas;
 		this.velocidadMaxima = velocidadMaxima;
 		this.nombre = nombre;
 		this.precio = precio;
 		this.peso = peso;
-		this.tracción = tracción;
+		this.traccion = traccion;
 		this.fabricante = fabricante;
 		CantidadVehiculos++;
 	}

@@ -1,14 +1,12 @@
 package vehiculos;
 
-import vehiculos.Vehiculo;
-
 public class Camion extends Vehiculo {
 	protected int ejes;
 	protected static int cantidadCamiones;
 	
-	public Camion(String plate, int doors, int speed, String name, int precio, int peso, String traction, String maker, int axles) {
-		super(plate, doors, speed, name, precio, peso, traction, maker);
-		this.ejes = axles;
+	public Camion(String placa, int puertas, int velocidadMaxima, String nombre, int precio, int peso, String traccion, String fabricante, int ejes) {
+		super(placa, puertas, velocidadMaxima, nombre, precio, peso, traccion, fabricante);
+		this.ejes = ejes;
 		cantidadCamiones++;
 	}
 	

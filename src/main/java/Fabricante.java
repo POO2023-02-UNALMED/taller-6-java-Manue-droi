@@ -7,7 +7,7 @@ public class Fabricante {
 	String pais;
 	protected int vecesFabricante;
 	private static Fabricante fabricanteElegido;
-	protected  static ArrayList<Fabricante>elegidoFab=new ArrayList<>();
+	protected  static ArrayList <Fabricante> elegidoFab = new ArrayList<>();
 	
 	
 	public Fabricante(String name, String pais ) {

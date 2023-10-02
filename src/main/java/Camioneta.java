@@ -1,13 +1,11 @@
 package vehiculos;
 
-import vehiculos.Vehiculo;
-
 public class Camioneta extends Vehiculo {
 	protected boolean volco;
 	protected static int cantidadCamionetas;
 	
 	
-	public Camioneta(String placa, int puertas, int velocidadMaxima, String nombre, int precio, int peso, String tracción, String fabricante, boolean volco) {
+	public Camioneta(String placa, int puertas, int velocidadMaxima, String nombre, int precio, int peso, String traccion, String fabricante, boolean volco) {
 		super( placa, puertas, velocidadMaxima,  nombre, precio, peso, tracción, fabricante);
 		this.volco = volco;
 		cantidadCamionetas++;
