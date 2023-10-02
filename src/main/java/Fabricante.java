@@ -9,16 +9,14 @@ public class Fabricante {
 	private static Fabricante fabricanteElegido;
 	protected  static ArrayList <Fabricante> elegidoFab = new ArrayList<Fabricante>();
 	
+	public Fabricante() {
+
+	}
 	
 	public Fabricante(String name, String pais ) {
 		this.nombre = nombre;
 		this.pais = pais;
 		elegidoFab.add(this);
-		
-	}
-	
-	public Fabricante() {
-
 	}
 	
 	public String getNombre() {
