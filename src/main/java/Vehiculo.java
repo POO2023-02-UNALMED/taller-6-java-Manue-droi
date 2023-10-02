@@ -24,9 +24,9 @@ public class Vehiculo {
 	}
 	
 	public String cantidadVehiculos() {
-		return "Automoviles: " + Automovil.getcantidadAutomoviles() + "\n" +
-				"Camionetas: " + Camioneta.getcantidadCamionetas() + "\n" +
-				"Camiones: " + Camion.getcantidadCamiones();
+		return "Automoviles: " + Automovil.getCantidadAutomoviles() + "\n" +
+				"Camionetas: " + Camioneta.getCantidadCamionetas() + "\n" +
+				"Camiones: " + Camion.getCantidadCamiones();
 	}
 	
 	public String getPlaca() {

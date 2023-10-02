@@ -18,14 +18,13 @@ public class Camion extends Vehiculo {
 		this(placa, 2, 80, nombre, precio, peso, "4X2", fabricante, ejes);
 	}
 	
-	}
-	public static int getcantidadCamiones() {
+	public static getCantidadCamiones() {
 		return cantidadCamiones ;
 	}
-	public int getEjes() {
+	public getEjes() {
 		return ejes;
 	}
-	public void setEjes(int ejes) {
+	public setEjes(int ejes) {
 		this.ejes = ejes;
 	}
 }

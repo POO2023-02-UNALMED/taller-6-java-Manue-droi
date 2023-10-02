@@ -18,14 +18,13 @@ public class Camioneta extends Vehiculo {
 		this(placa, puertas, 90, nombre, precio, peso, "4X4", fabricante, volco);
 	}	
 
-	}
 	public boolean isvolco() {
 		return volco;
 	}
-	public void setVolco(boolean volco) {
+	public setVolco(boolean volco) {
 		this.volco = volco;
 	}
-	public static int getcantidadCamionetas() {
+	public static getCantidadCamionetas() {
 		return cantidadCamionetas;
 	}
 }
