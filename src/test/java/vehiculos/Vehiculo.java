@@ -1,17 +1,17 @@
 package vehiculos;
 
 public class Vehiculo {
-	String placa;
-	int puertas;
-	double velocidadMaxima;
-	String nombre;
-	double precio;
-	double peso;
-	String tracción;
-	String fabricante;
-	int CantidadVehiculos;
+	protected String placa;
+	protected int puertas;
+	protected int velocidadMaxima;
+	protected String nombre;
+	protected int precio;
+	protected int peso;
+	protected String tracción;
+	protected String fabricante;
+	protected static int CantidadVehiculos;
 	
-	public Vehiculo(String placa, int puertas, double velocidadMaxima, String nombre, double precio, double peso, String tracción, String fabricante, int CantidadVehiculos) {
+	public Vehiculo(String placa, int puertas, int velocidadMaxima, String nombre, int precio, int peso, String tracción, String fabricante) {
 		this.placa = placa;
 		this.puertas = puertas;
 		this.velocidadMaxima = velocidadMaxima;
@@ -20,14 +20,13 @@ public class Vehiculo {
 		this.peso = peso;
 		this.tracción = tracción;
 		this.fabricante = fabricante;
-		this.CantidadVehiculos = CantidadVehiculos;
+		CantidadVehiculos++;
 	}
 	
-	
-	public int vehiculosPorTipo() {
-		return "Automoviles: " + Automóvil.CantidadAutomobiles() + "\n" +
-                "Camionetas: " + Camion.cantidad() + "\n" +
-                "Camiones: " + Camioneta.cantidadReptiles();
+	public String cantidadVehiculos() {
+		return "Automoviles: " + Automovil.cantidadAutomoviles() + "\n" +
+				"Camionetas: " + Camioneta.cantidadCamionetas() + "\n" +
+				"Camiones: " + Camion.cantidadCamiones();
 	}
 	
 	public String getPlaca() {
@@ -45,7 +44,7 @@ public class Vehiculo {
 	public double getVelocidadMaxima() {
 		return velocidadMaxima ;
 	}
-	public void setVelocidadMaxima(double velocidadMaxima ) {
+	public void setVelocidadMaxima(int velocidadMaxima ) {
 		this.velocidadMaxima = velocidadMaxima  ;
 	}
 	public String getNombre() {
@@ -57,7 +56,7 @@ public class Vehiculo {
 	public double getPrecio() {
 		return precio;
 	}
-	public void setPrecio(double precio) {
+	public void setPrecio(int precio) {
 		this.precio = precio ;
 	}
 	public String getTracción() {

@@ -10,14 +10,14 @@ public class Fabricante {
 	}
 	
 	public Fabricante() {
-		this(null, null)
+		this(null, null);
 	}
 	
 	public String getNombre() {
 		return nombre;
 	}
 	
-	public País getPais() {
+	public String getPais() {
 		return pais;
 	}
 	
@@ -25,7 +25,7 @@ public class Fabricante {
 		this.nombre = name;
 	}
 	
-	public void setPais(País country) {
-		this.pais = country;
+	public void setPais(String pais) {
+		this.pais = pais;
 	}
 }
