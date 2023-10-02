@@ -6,7 +6,7 @@ public class Camioneta extends Vehiculo {
 	
 	
 	public Camioneta(String placa, int puertas, int velocidadMaxima, String nombre, int precio, int peso, String traccion, String fabricante, boolean volco) {
-		super( placa, puertas, velocidadMaxima,  nombre, precio, peso, tracción, fabricante);
+		super( placa, puertas, velocidadMaxima,  nombre, precio, peso, traccion, fabricante);
 		this.volco = volco;
 		cantidadCamionetas++;
 	}
