@@ -40,7 +40,7 @@ public class Fabricante {
 	}
 	
 	public static  Fabricante fabricaMayorVentas () {
-		for(int i=0;i<(elegidoFab.size()); i++ ) {
+		for(int i=0;i<(elegidoFab.size()-i); i++ ) {
 			Fabricante MasVendido1=elegidoFab.get(0);
 			Fabricante MasVendido2=elegidoFab.get(i+1);
 			if (MasVendido1.getVecesFabricante() > MasVendido2.getVecesFabricante()) {
