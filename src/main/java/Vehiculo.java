@@ -1,5 +1,9 @@
 package vehiculos;
 
+import vehiculos.Automovil;
+import vehiculos.Camion;
+import vehiculos.Camioneta;
+
 public class Vehiculo {
 	protected String placa;
 	protected int puertas;
@@ -78,4 +82,3 @@ public class Vehiculo {
 		CantidadVehiculos = cantidadVehiculos;
 	}
 }
-
