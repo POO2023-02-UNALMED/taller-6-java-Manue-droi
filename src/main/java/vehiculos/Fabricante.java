@@ -20,7 +20,7 @@ public class Fabricante {
 	}
 	
 	public String getNombre() {
-		return this.nombre;
+		return nombre;
 	}
 	
 	public void setNombre(String nombre) {
