@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Fabricante {
 	protected String nombre;
-	protected String pais;
+	protected Pais pais;
 	protected int vecesFabricante;
 	private static Fabricante fabricanteElegido;
 	protected  static ArrayList <Fabricante> elegidoFab = new ArrayList<Fabricante>();
@@ -13,7 +13,7 @@ public class Fabricante {
 
 	}
 	
-	public Fabricante(String name, String pais ) {
+	public Fabricante(String nombre, Pais pais ) {
 		this.nombre = nombre;
 		this.pais = pais;
 		elegidoFab.add(this);

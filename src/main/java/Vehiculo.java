@@ -35,13 +35,13 @@ public class Vehiculo {
 	public void setPlaca(String placa) {
 		this.placa = placa;
 	}
-	public int gePuertas() {
+	public int getPuertas() {
 		return puertas;
 	}
 	public void setPuertas(int puertas) {
 		this.puertas = puertas ;
 	}
-	public double getVelocidadMaxima() {
+	public static double getVelocidadMaxima() {
 		return velocidadMaxima ;
 	}
 	public void setVelocidadMaxima(int velocidadMaxima ) {
@@ -58,6 +58,11 @@ public class Vehiculo {
 	}
 	public void setPrecio(int precio) {
 		this.precio = precio ;
+	public double getPeso() {
+		return peso;
+		}
+	public void setPeso(int peso) {
+		this.peso = peso ;
 	}
 	public String getTraccion() {
 		return traccion;
