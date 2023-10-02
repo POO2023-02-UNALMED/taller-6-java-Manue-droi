@@ -1,15 +1,15 @@
 package vehiculos;
-import java.util.ArrayList;
+
 
 public class Camioneta extends Vehiculo {
 	protected boolean volco;
-	protected static ArrayList<Camioneta> listado = new ArrayList<Camioneta>();
+	protected static int cantidadCamionetas;
 	
 	
 	public Camioneta(String placa, int puertas, int velocidadMaxima, String nombre, int precio, int peso, String tracción, String fabricante, boolean volco) {
 		super( placa, puertas, velocidadMaxima,  nombre, precio, peso, tracción, fabricante);
 		this.volco = volco;
-		Camioneta.listado.add(this);
+		cantidadCamionetas++;
 	}
 	
 	public Camioneta(String placa, int puertas ,String nombre, int precio,int peso, String fabricante, boolean volco) {
@@ -24,7 +24,7 @@ public class Camioneta extends Vehiculo {
 	public void setVolco(boolean volco) {
 		this.volco = volco;
 	}
-	public static int cantidadCamionetas() {
-		return Camioneta.listado.size();
+	public static int getcantidadCamionetas() {
+		return cantidadCamionetas;
 	}
 }
