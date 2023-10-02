@@ -19,7 +19,7 @@ public class Automovil extends Vehiculo {
 			this(placa, 4, 100, nombre, precio, peso, "FWD", fabricante, puestos);
 	}
 	
-	public static getCantidadAutomoviles() {
+	public static int getCantidadAutomoviles() {
 		  return cantidadAutomobiles;
 	}	
 	public int getPuestos() {
