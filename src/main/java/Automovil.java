@@ -22,10 +22,10 @@ public class Automovil extends Vehiculo {
 	public static getCantidadAutomoviles() {
 		  return cantidadAutomobiles;
 	}	
-	public  getPuestos() {
+	public int getPuestos() {
 			return puestos;
 	}
-	public setPuestos(int puestos) {
+	public void setPuestos(int puestos) {
 			this.puestos = puestos;
 	}
 }
