@@ -23,7 +23,7 @@ public class Fabricante {
 		return nombre;
 	}
 	
-	public String getPais() {
+	public Pais getPais() {
 		return pais;
 	}
 	
@@ -31,7 +31,7 @@ public class Fabricante {
 		this.nombre = name;
 	}
 	
-	public void setPais(String pais) {
+	public void setPais(Pais pais) {
 		this.pais = pais;
 	}
 

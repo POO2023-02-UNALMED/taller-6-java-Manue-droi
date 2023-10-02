@@ -41,7 +41,7 @@ public class Vehiculo {
 	public void setPuertas(int puertas) {
 		this.puertas = puertas ;
 	}
-	public static double getVelocidadMaxima() {
+	public double getVelocidadMaxima() {
 		return velocidadMaxima ;
 	}
 	public void setVelocidadMaxima(int velocidadMaxima ) {
