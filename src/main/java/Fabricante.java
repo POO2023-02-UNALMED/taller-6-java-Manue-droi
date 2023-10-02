@@ -3,11 +3,11 @@ package vehiculos;
 import java.util.ArrayList;
 
 public class Fabricante {
-	String nombre;
-	String pais;
+	protected String nombre;
+	protected String pais;
 	protected int vecesFabricante;
 	private static Fabricante fabricanteElegido;
-	protected  static ArrayList <Fabricante> elegidoFab = new ArrayList<Fabricant>();
+	protected  static ArrayList <Fabricante> elegidoFab = new ArrayList<Fabricante>();
 	
 	
 	public Fabricante(String name, String pais ) {

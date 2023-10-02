@@ -23,7 +23,7 @@ public class Vehiculo {
 		CantidadVehiculos++;
 	}
 	
-	public String cantidadVehiculos() {
+	public static String cantidadVehiculos() {
 		return "Automoviles: " + Automovil.getCantidadAutomoviles() + "\n" +
 				"Camionetas: " + Camioneta.getCantidadCamionetas() + "\n" +
 				"Camiones: " + Camion.getCantidadCamiones();
