@@ -60,10 +60,10 @@ public class Vehiculo {
 		this.precio = precio ;
 	}
 	public String getTracción() {
-		return tracción;
+		return traccion;
 	}
 	public void setTracción(String tracción) {
-		this.tracción = tracción ;
+		this.traccion = traccion ;
 	}
 	public String getFabricante() {
 		return fabricante;
