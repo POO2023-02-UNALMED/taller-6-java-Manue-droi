@@ -7,18 +7,18 @@ public class Fabricante {
 	String pais;
 	protected int vecesFabricante;
 	private static Fabricante fabricanteElegido;
-	protected  static ArrayList <Fabricante> elegidoFab = new ArrayList<>();
+	protected  static ArrayList <Fabricante> elegidoFab = new ArrayList<Fabricant>();
 	
 	
 	public Fabricante(String name, String pais ) {
-		this.nombre = name;
+		this.nombre = nombre;
 		this.pais = pais;
 		elegidoFab.add(this);
 		
 	}
 	
 	public Fabricante() {
-		this(null, null);
+
 	}
 	
 	public String getNombre() {
