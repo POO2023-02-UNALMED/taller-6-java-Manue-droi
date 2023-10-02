@@ -58,9 +58,10 @@ public class Vehiculo {
 	}
 	public void setPrecio(int precio) {
 		this.precio = precio ;
+	}
 	public double getPeso() {
 		return peso;
-		}
+	}
 	public void setPeso(int peso) {
 		this.peso = peso ;
 	}
