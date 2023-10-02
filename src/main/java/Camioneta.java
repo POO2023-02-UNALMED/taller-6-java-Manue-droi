@@ -20,3 +20,4 @@ public class Camioneta extends Vehiculo {
 	public static int getCantidadCamionetas() {
 		return cantidadCamionetas;
 	}
+}
